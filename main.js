@@ -31,10 +31,11 @@ const MAX_CLICKS_ALLOWED = 8;
 // pictures that i want displayed
 let AllbusmallPictures = 
 {
-    new busmallPictures('banana', 'busmall-project/busmall-pics/banana.jpg'),
-    new busmallPictures('breakfast', 'busmall-project/busmall-pics/breakfast.jpg'),
-    new busmallPictures('unicorn', 'busmall-project/busmall-pics/unicorn.jpg'),
-    new busmallPictures('wine-glass', 'busmall-project/busmall-pics/wine-glass.jpg')
+    new: busmallPictures('banana', 'busmall-project/busmall-pics/banana.jpg'),
+    new: busmallPictures('breakfast', 'busmall-project/busmall-pics/breakfast.jpg'),
+    new: busmallPictures('unicorn', 'busmall-project/busmall-pics/unicorn.jpg'),
+    new: busmallPictures('wine-glass', 'busmall-project/busmall-pics/wine-glass.jpg')
+
 };
 
 //Setup the element references in the DOM
